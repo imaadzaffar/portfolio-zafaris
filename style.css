@@ -1,24 +1,15 @@
-@font-face{
-  font-family: 'JetBrains Mono';
-  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Body */
 body {
-  background-color: rgb(32, 36, 42);
+  background-color: #20242A;
 }
 
+/* Header */
 header {
   display: flex;
   background: cornflowerblue;
@@ -30,7 +21,7 @@ header {
 }
 
 header h1 {
-  font-family: system-ui, "Arial", sans-serif;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-transform: capitalize;
   color: white;
   font-size: 50px;
@@ -38,7 +29,7 @@ header h1 {
 }
 
 section {
-  background-color: rgb(40, 44, 51);
+  background-color: #282C33;
   padding: 20px;
   border: 2px solid cornflowerblue;
   border-radius: 10px;
@@ -55,14 +46,49 @@ h2 {
 p {
   font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
-  color: white;
+  line-height: 26px;
+  color: #ABB2BE;
   margin-top: 10px;
 }
 
 a {
-  color: white;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #ABB2BE;
 }
 
 a:hover {
   color: cornflowerblue;
+}
+
+.icons {
+  margin: auto;
+}
+
+/* Icons */
+img {
+  height: 120px;
+  width: 120px;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  background-color: cornflowerblue;
+  color: white;
+  height: 50px;
+}
+
+footer .attributions {
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  margin: auto;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: blueviolet;
 }
