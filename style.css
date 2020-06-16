@@ -72,10 +72,38 @@ section:hover {
 }
 
 /* Icons */
-img {
-  height: 120px;
-  width: 120px;
-  padding: 20px;
+.icons {
+  text-align: center;
+}
+
+.icon {
+  position: relative;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  margin: 20px;
+}
+
+/* Tooltip text */
+.icon .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: #20242A;
+  color: cornflowerblue;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  top: 105%;
+  left: 50%;
+  margin-left: -50px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.icon:hover .tooltiptext {
+  visibility: visible;
 }
 
 /* Footer */
