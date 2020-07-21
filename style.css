@@ -59,16 +59,12 @@ header span {
 
 /* Section */
 section {
+  max-width: 1000px;
   background-color: #282C33;
+  margin: 20px auto;
   padding: 20px;
   border: 2px solid cornflowerblue;
   border-radius: 10px;
-  margin: 20px;
-  transition: border 300ms ease-in-out;
-}
-
-section:hover {
-  border: 2px solid white;
 }
 
 /* Icons */
