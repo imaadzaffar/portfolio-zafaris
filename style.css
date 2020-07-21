@@ -60,7 +60,7 @@ header span {
 /* Section */
 section {
   background-color: #282C33;
-  margin: 20px auto;
+  margin: 20px;
   padding: 20px;
   border: 2px solid cornflowerblue;
   border-radius: 10px;
@@ -126,6 +126,7 @@ footer a:hover {
 @media only screen and (min-width: 800px) {
   section {
     max-width: 1000px;
+    margin: 0 auto;
   }
 
   header {
