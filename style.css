@@ -46,7 +46,6 @@ header {
 }
 
 header h1 {
-  text-transform: capitalize;
   color: white;
   font-size: 50px;
 }
